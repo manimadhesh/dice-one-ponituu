@@ -59,7 +59,7 @@ btnHold.addEventListener('click', function () {
 
     // winner
 
-    if (scores[activeUser] > 10) {
+    if (scores[activeUser] >= 50) {
       playing = false;
       // hiding dice
       diceImg.classList.add('hidden');
